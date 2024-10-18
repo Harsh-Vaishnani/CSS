@@ -571,3 +571,28 @@
         font-weight: 600 !important;
     }
 }
+
+@media screen and  (max-width:425px) {
+    .right-border-1{
+        display: none !important;
+    }
+    .hero-content{
+        padding-left:0px !important;
+
+    }
+    .hero-first::before{
+        border: none !important;
+    }
+}       
+
+@media only screen and (max-width : 375px) { 
+        .hero-section {
+            padding-inline: 20px !important;
+        }
+        .hero-btn{
+            margin: auto !important;
+        }
+        .hero-first{
+            padding-top: 25px !important;
+        }
+}
